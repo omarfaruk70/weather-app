@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background.webp);
+    background-size: cover;
+}
+.app-area{
+    height: 100%;
+    width: 100%;
+    margin: 20px auto;
+    /* background-color: lightsalmon; */
+    text-align: center;
+
+}
+.user-part input{
+    height: 70px;
+    width: 292px;
+    padding: 10px 50px;
+    margin: 70px;
+    border-radius: 40px;
+    font-size: 13px;
+    font-style: italic;    
+    font-weight: bold;
+}
+.user-part button{
+    height: 70px ;
+    width: 150px;
+    border-radius: 35px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.description h1{
+    margin: 100px auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.description p{
+    margin: auto;
+    text-align: center;
+}
